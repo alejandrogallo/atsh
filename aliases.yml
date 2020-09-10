@@ -1,0 +1,26 @@
+":verbose":
+  commands:
+    - cmd: AT+CMEE=2
+      desc: set explicit error messages
+":battery":
+  commands:
+    - cmd: AT+CBC
+      desc: check battery status
+":ping":
+  commands:
+    - cmd: AT
+      desc: check if alive
+":id":
+  commands:
+    - cmd: AT+CGSN
+      desc: request product serial number
+    - cmd: AT+CGMR
+      desc: identify request revision
+    - cmd: AT+CGMM
+      desc: identify request model
+    - cmd: AT+CGMI
+      desc: identify request manufacturer
+":signal-quality":
+  commands:
+    - cmd: AT+CSQ
+      desc: is a signal quality command

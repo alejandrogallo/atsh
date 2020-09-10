@@ -1,0 +1,904 @@
+AT S:
+  commands:
+    - cmd: AT S
+      desc: Set register
+AT E:
+  commands:
+    - cmd: AT E
+      desc: Command echo
+AT D:
+  commands:
+    - cmd: AT D
+      desc: Dial
+AT H:
+  commands:
+    - cmd: AT H
+      desc: Hook control
+AT+CGMI:
+  commands:
+    - cmd: AT+CGMI
+      desc: Request Manufacturer Identification
+AT+CGMM:
+  commands:
+    - cmd: AT+CGMM
+      desc: Request Model Identification
+AT+CGMN:
+  commands:
+    - cmd: AT+CGMN
+      desc: Request Manufacturer Name
+AT+CGMP:
+  commands:
+    - cmd: AT+CGMP
+      desc: Request Manufacturer Part Number
+AT+CGMR:
+  commands:
+    - cmd: AT+CGMR
+      desc: Request Revision Identification
+AT+CGMS:
+  commands:
+    - cmd: AT+CGMS
+      desc: Request Manufacturer Serial Number
+AT+CGSN:
+  commands:
+    - cmd: AT+CGSN
+      desc: Request Product Serial Number Identification
+AT+CSCS:
+  commands:
+    - cmd: AT+CSCS
+      desc: Select TE Character Set
+AT+CIMI:
+  commands:
+    - cmd: AT+CIMI
+      desc: Request International Mobile Subscriber Identity (IMSI)
+AT+CNUM:
+  commands:
+    - cmd: AT+CNUM
+      desc: Subscriber Number
+AT+CREG:
+  commands:
+    - cmd: AT+CREG
+      desc: Network Registration
+AT+COPS:
+  commands:
+    - cmd: AT+COPS
+      desc: Operator Selection
+AT+CPOL:
+  commands:
+    - cmd: AT+CPOL
+      desc: Preferred PLMN List
+AT+CPLS:
+  commands:
+    - cmd: AT+CPLS
+      desc: Preferred PLMN List
+AT+CLCK:
+  commands:
+    - cmd: AT+CLCK
+      desc: Facility Lock
+AT+CPWD:
+  commands:
+    - cmd: AT+CPWD
+      desc: Change Password
+AT+CCUG:
+  commands:
+    - cmd: AT+CCUG
+      desc: Closed User Group
+AT+CLCC:
+  commands:
+    - cmd: AT+CLCC
+      desc: List Current Calls
+AT+CUSD:
+  commands:
+    - cmd: AT+CUSD
+      desc: Unstructured Supplementary Service Data
+AT+CPAS:
+  commands:
+    - cmd: AT+CPAS
+      desc: Phone Activity Status
+AT+CFUN:
+  commands:
+    - cmd: AT+CFUN
+      desc: Set Phone Functionality
+AT+CPIN:
+  commands:
+    - cmd: AT+CPIN
+      desc: Enter PIN
+AT+CBC:
+  commands:
+    - cmd: AT+CBC
+      desc: Battery Charge
+AT+CIND:
+  commands:
+    - cmd: AT+CIND
+      desc: Indicator
+AT+CPBS:
+  commands:
+    - cmd: AT+CPBS
+      desc: Select Phonebook Memory Storage
+AT+CPBR:
+  commands:
+    - cmd: AT+CPBR
+      desc: Read Phonebook Entries
+AT+CPBW:
+  commands:
+    - cmd: AT+CPBW
+      desc: Write/Delete Phonebook Entry
+AT+CRSM:
+  commands:
+    - cmd: AT+CRSM
+      desc: Restricted SIM Access
+AT+CMAR:
+  commands:
+    - cmd: AT+CMAR
+      desc: Master Reset
+AT+CMEE:
+  commands:
+    - cmd: AT+CMEE
+      desc: Report Mobile Equipment Error
+AT+CSMS:
+  commands:
+    - cmd: AT+CSMS
+      desc: Select Message Service
+AT+CPMS:
+  commands:
+    - cmd: AT+CPMS
+      desc: Preferred Message Storage
+AT+CMGF:
+  commands:
+    - cmd: AT+CMGF
+      desc: Message Format
+AT+CSCA:
+  commands:
+    - cmd: AT+CSCA
+      desc: Service Center Address
+AT+CSMP:
+  commands:
+    - cmd: AT+CSMP
+      desc: Set Text Mode Parameters
+AT+CSDH:
+  commands:
+    - cmd: AT+CSDH
+      desc: Show Text Mode Parameters
+AT+CSCB:
+  commands:
+    - cmd: AT+CSCB
+      desc: Select Cell Broadcast Message Types
+AT+CSAS:
+  commands:
+    - cmd: AT+CSAS
+      desc: Save Settings
+AT+CRES:
+  commands:
+    - cmd: AT+CRES
+      desc: Restore Settings
+AT+CNMI:
+  commands:
+    - cmd: AT+CNMI
+      desc: New Message Indications to TE
+AT+CMGL:
+  commands:
+    - cmd: AT+CMGL
+      desc: List Messages
+AT+CMGR:
+  commands:
+    - cmd: AT+CMGR
+      desc: Read Message
+AT+CMGS:
+  commands:
+    - cmd: AT+CMGS
+      desc: Send Message
+AT+CMSS:
+  commands:
+    - cmd: AT+CMSS
+      desc: Send Message from Storage
+AT+CMGW:
+  commands:
+    - cmd: AT+CMGW
+      desc: Write Message to Memory
+AT+CMGD:
+  commands:
+    - cmd: AT+CMGD
+      desc: Delete Message
+AT+CGDCONT:
+  commands:
+    - cmd: AT+CGDCONT
+      desc: Define PDP Context
+AT+CGDSCONT:
+  commands:
+    - cmd: AT+CGDSCONT
+      desc: Define Secondary PDP Context
+AT+CGEQREQ:
+  commands:
+    - cmd: AT+CGEQREQ
+      desc: 3G Quality of Service Profile (Requested)
+AT+CGQREQ:
+  commands:
+    - cmd: AT+CGQREQ
+      desc: Quality of Service Profile (Requested)
+AT+CGQMIN:
+  commands:
+    - cmd: AT+CGQMIN
+      desc: Quality of Service Profile (Minimum Acceptable)
+AT+CGEQMIN:
+  commands:
+    - cmd: AT+CGEQMIN
+      desc: 3G Quality of Service Profile (Minimum Acceptable)
+AT+CGEQNEG:
+  commands:
+    - cmd: AT+CGEQNEG
+      desc: 3G Quality of Service Profile (Negotiated)
+AT+CGATT:
+  commands:
+    - cmd: AT+CGATT
+      desc: Attach or Detach
+AT+CGACT:
+  commands:
+    - cmd: AT+CGACT
+      desc: PDP Context Activate or Deactivate
+AT+CGCMOD:
+  commands:
+    - cmd: AT+CGCMOD
+      desc: PDP Context Modify
+AT+CGTFT:
+  commands:
+    - cmd: AT+CGTFT
+      desc: Traffic Flow Template
+AT+CGDATA:
+  commands:
+    - cmd: AT+CGDATA
+      desc: Data Mode
+AT+CGPADDR:
+  commands:
+    - cmd: AT+CGPADDR
+      desc: Show PDP Address
+AT+CGCLASS:
+  commands:
+    - cmd: AT+CGCLASS
+      desc: GPRS Mobile Station Class
+AT+CGREG:
+  commands:
+    - cmd: AT+CGREG
+      desc: GPRS Network Registration Indication
+AT+CGSMS:
+  commands:
+    - cmd: AT+CGSMS
+      desc: Select Service for MO SMS Messages
+AT_IPOINT:
+  commands:
+    - cmd: AT_IPOINT
+      desc: Inmarsat Antenna Pointing
+AT_IGPS:
+  commands:
+    - cmd: AT_IGPS
+      desc: Inmarsat GPS Location Information
+AT_INIS:
+  commands:
+    - cmd: AT_INIS
+      desc: Inmarsat Network Interface Status
+AT_ITFT:
+  commands:
+    - cmd: AT_ITFT
+      desc: Inmarsat Uplink Traffic Flow Template
+AT_ITEMP:
+  commands:
+    - cmd: AT_ITEMP
+      desc: Inmarsat BGAN Terminal Temperature
+AT_ILOG:
+  commands:
+    - cmd: AT_ILOG
+      desc: Inmarsat Retrieve Log File
+AT_ISLEEP:
+  commands:
+    - cmd: AT_ISLEEP
+      desc: Inmarsat MT Sleep Status Indicator
+AT_IMETER:
+  commands:
+    - cmd: AT_IMETER
+      desc: Inmarsat Call Metering
+AT_ISIG:
+  commands:
+    - cmd: AT_ISIG
+      desc: Inmarsat Signal Strength Indicator
+AT_IBALARM:
+  commands:
+    - cmd: AT_IBALARM
+      desc: Inmarsat Alarm Indicator
+AT_ISATINFO:
+  commands:
+    - cmd: AT_ISATINFO
+      desc: Inmarsat BGAN Satellite Information
+AT_ISATVIS:
+  commands:
+    - cmd: AT_ISATVIS
+      desc: Inmarsat BGAN Satellite(s) Visible
+AT_ISATCUR:
+  commands:
+    - cmd: AT_ISATCUR
+      desc: Inmarsat BGAN Current Satellite
+AT_IBNOTIFY:
+  commands:
+    - cmd: AT_IBNOTIFY
+      desc: Inmarsat Control Unsolicited Commands
+AT_IERROR:
+  commands:
+    - cmd: AT_IERROR
+      desc: Inmarsat BGAN Terminal Error Reports
+AT_IGETFW:
+  commands:
+    - cmd: AT_IGETFW
+      desc: Inmarsat Get firmware file from FTP server
+AT_IUPDFW:
+  commands:
+    - cmd: AT_IUPDFW
+      desc: Inmarsat Trigger firmware update.
+AT_ISENDFILE:
+  commands:
+    - cmd: AT_ISENDFILE
+      desc: Inmarsat Send file from UT to FTP server
+AT_IGETFILE:
+  commands:
+    - cmd: AT_IGETFILE
+      desc: Inmarsat Download file from FTP server to UT
+AT_IUPDCFG:
+  commands:
+    - cmd: AT_IUPDCFG
+      desc: Inmarsat Install new 'config.txt' file.
+AT_IREMWEB:
+  commands:
+    - cmd: AT_IREMWEB
+      desc: Inmarsat Control HTTP access to UT.
+AT_ICLCK:
+  commands:
+    - cmd: AT_ICLCK
+      desc: Inmarsat Facility Lock Configure
+AT_ICPWD:
+  commands:
+    - cmd: AT_ICPWD
+      desc: Inmarsat Change Facility Password
+AT_IMACLOC:
+  commands:
+    - cmd: AT_IMACLOC
+      desc: Inmarsat Enable/Disable Ethernet MAC filtering.
+AT_IMACLOCAD:
+  commands:
+    - cmd: AT_IMACLOCAD
+      desc: Inmarsat Configure allowed Ethernet MAC addresses.
+AT_IPWSAVSCHD:
+  commands:
+    - cmd: AT_IPWSAVSCHD
+      desc: Inmarsat This input criteria for power save mode.
+AT_ISMSRMT:
+  commands:
+    - cmd: AT_ISMSRMT
+      desc: Inmarsat Enable/Disable remote SMS commands.
+AT_IATCSCN:
+  commands:
+    - cmd: AT_IATCSCN
+      desc: Inmarsat Inititate RX ATC Scan
+AT_IATCROBST:
+  commands:
+    - cmd: AT_IATCROBST
+      desc: Inmarsat Enable / Disable ATC robustness mode
+AT_IHINIT:
+  commands:
+    - cmd: AT_IHINIT
+      desc: HNS Initial Configuration Settings
+AT_IHIP:
+  commands:
+    - cmd: AT_IHIP
+      desc: HNS Internet Protocol Settings
+AT_IHSTATUS:
+  commands:
+    - cmd: AT_IHSTATUS
+      desc: HNS Terminal Status
+AT_IHSET:
+  commands:
+    - cmd: AT_IHSET
+      desc: HNS Set Terminal Configuration
+AT_IHREAD:
+  commands:
+    - cmd: AT_IHREAD
+      desc: HNS Terminal Version Information
+AT_IHDEFCNT:
+  commands:
+    - cmd: AT_IHDEFCNT
+      desc: HNS Define a Default PDP Context
+AT_IHACA:
+  commands:
+    - cmd: AT_IHACA
+      desc: HNS Automatic Context Activation
+AT_IHTXCW:
+  commands:
+    - cmd: AT_IHTXCW
+      desc: HNS Transmit CW
+AT_IHSTXCW:
+  commands:
+    - cmd: AT_IHSTXCW
+      desc: HNS Stop CW Transmission
+AT_IHTXMOD:
+  commands:
+    - cmd: AT_IHTXMOD
+      desc: HNS Transmit Modulated Signal
+AT_IHSTXMOD:
+  commands:
+    - cmd: AT_IHSTXMOD
+      desc: HNS Stop Modulated Signal Transmission
+AT_IHGFACQ:
+  commands:
+    - cmd: AT_IHGFACQ
+      desc: HNS Ask PSAB Acquisition Status
+AT_IHSIGACQ:
+  commands:
+    - cmd: AT_IHSIGACQ
+      desc: HNS Ask Signal Acquisition Status
+AT_IHGF:
+  commands:
+    - cmd: AT_IHGF
+      desc: HNS Obtain Satellite Information for Antenna Pointing
+AT_IHGPS:
+  commands:
+    - cmd: AT_IHGPS
+      desc: HNS Initiate or Update GPS Information to CM
+AT_IHPWROFF:
+  commands:
+    - cmd: AT_IHPWROFF
+      desc: HNS CM Accomplishes Deregistration Procedure
+AT_IHREBOOT:
+  commands:
+    - cmd: AT_IHREBOOT
+      desc: HNS Reboot Terminal
+AT_IHCCAL:
+  commands:
+    - cmd: AT_IHCCAL
+      desc: HNS Send Cable Calibration Data to CM
+AT_IHSWUPG:
+  commands:
+    - cmd: AT_IHSWUPG
+      desc: HNS SW Upgrade Indication
+AT_IHSWDATA:
+  commands:
+    - cmd: AT_IHSWDATA
+      desc: HNS Request a block of image file.
+AT_IHLOG:
+  commands:
+    - cmd: AT_IHLOG
+      desc: HNS Write String to Console and Syslog
+AT_IHPIN:
+  commands:
+    - cmd: AT_IHPIN
+      desc: HNS Query PIN/PUK Status
+AT_IHPACKET:
+  commands:
+    - cmd: AT_IHPACKET
+      desc: HNS Report PS Call Log Information
+AT_IHSMS:
+  commands:
+    - cmd: AT_IHSMS
+      desc: HNS Report Short Message Delivery Status
+AT_IHBEAM:
+  commands:
+    - cmd: AT_IHBEAM
+      desc: HNS Report Beam ID in which UT is Operating
+AT_IHTIMER:
+  commands:
+    - cmd: AT_IHTIMER
+      desc: HNS Set Timeouts for Connections and Leases
+AT_IHARP:
+  commands:
+    - cmd: AT_IHARP
+      desc: HNS Terminal ARP Entries
+AT_IHPING:
+  commands:
+    - cmd: AT_IHPING
+      desc: HNS Terminal-initiated PING.
+AT_IHTEXT:
+  commands:
+    - cmd: AT_IHTEXT
+      desc: HNS Terminal Text Message
+AT_IHPBIT:
+  commands:
+    - cmd: AT_IHPBIT
+      desc: HNS Command UT to Perform Platform Built-In Test and Check Status
+AT_IHEVENT:
+  commands:
+    - cmd: AT_IHEVENT
+      desc: HNS BGAN Terminal Event Reports
+AT_IHCIRCUIT:
+  commands:
+    - cmd: AT_IHCIRCUIT
+      desc: HNS BGAN Terminal CS Call Reports
+AT_IHTEMP:
+  commands:
+    - cmd: AT_IHTEMP
+      desc: HNS HNS Terminal Temperature
+AT_IHMETER:
+  commands:
+    - cmd: AT_IHMETER
+      desc: HNS Expanded Call Metering
+ATA:
+  commands:
+    - cmd: ATA
+      desc: command is an answer command
+ATH:
+  commands:
+    - cmd: ATH
+      desc: is used to hang up call
+ATD:
+  commands:
+    - cmd: ATD
+      desc: is a dial command
+ATM:
+  commands:
+    - cmd: ATM
+      desc: check speaker mode
+ATT:
+  commands:
+    - cmd: ATT
+      desc: fix tone dial like the default
+ATL:
+  commands:
+    - cmd: ATL
+      desc: check speaker loudness
+AT+CSTA:
+  commands:
+    - cmd: AT+CSTA
+      desc: select an address type
+ATP:
+  commands:
+    - cmd: ATP
+      desc: fix pulse dial like the default
+ATO:
+  commands:
+    - cmd: ATO
+      desc: is a Go on-line command
+AT+CRC:
+  commands:
+    - cmd: AT+CRC
+      desc: command is used for cellular result codes
+ATI:
+  commands:
+    - cmd: ATI
+      desc: command is used for identification
+AT&F:
+  commands:
+    - cmd: AT&F
+      desc: reinstate factory settings
+ATZ:
+  commands:
+    - cmd: ATZ
+      desc: remind stored profile
+AT&W:
+  commands:
+    - cmd: AT&W
+      desc: store parameters within the specified
+AT+CSTA:
+  commands:
+    - cmd: AT+CSTA
+      desc: select an address type
+AT+GMM:
+  commands:
+    - cmd: AT+GMM
+      desc: identify request model
+AT&V:
+  commands:
+    - cmd: AT&V
+      desc: examine the active configuration
+AT+CLCK:
+  commands:
+    - cmd: AT+CLCK
+      desc: command is used for facility lock
+AT+GCAP:
+  commands:
+    - cmd: AT+GCAP
+      desc: complete request of a capabilities list
+AT&Y:
+  commands:
+    - cmd: AT&Y
+      desc: choose power-up option
+AT+GMR:
+  commands:
+    - cmd: AT+GMR
+      desc: identify request revision
+AT+COLP:
+  commands:
+    - cmd: AT+COLP
+      desc: is a connected line recognition presentation
+AT+GMI:
+  commands:
+    - cmd: AT+GMI
+      desc: is a request manufacturer identification command
+AT+GSN:
+  commands:
+    - cmd: AT+GSN
+      desc: request product IMEI number.
+AT+CBC:
+  commands:
+    - cmd: AT+CBC
+      desc: charge the battery
+AT+CGMR:
+  commands:
+    - cmd: AT+CGMR
+      desc: identify request revision
+AT+CGSN:
+  commands:
+    - cmd: AT+CGSN
+      desc: request product serial number
+AT+CMEE:
+  commands:
+    - cmd: AT+CMEE
+      desc: report the error of mobile equipment
+AT+CPBF:
+  commands:
+    - cmd: AT+CPBF
+      desc: find the entries of the phone book
+AT+CPBR:
+  commands:
+    - cmd: AT+CPBR
+      desc: read entries of the phone book
+AT+CPBS:
+  commands:
+    - cmd: AT+CPBS
+      desc: choose the storage of phone book memory
+AT+CSCS:
+  commands:
+    - cmd: AT+CSCS
+      desc: select TE character set
+AT+CPBW:
+  commands:
+    - cmd: AT+CPBW
+      desc: write phone book entry
+AT+CGMM:
+  commands:
+    - cmd: AT+CGMM
+      desc: identify request model
+AT+CGMI:
+  commands:
+    - cmd: AT+CGMI
+      desc: identify request manufacturer
+AT+CSQ:
+  commands:
+    - cmd: AT+CSQ
+      desc: is a signal quality command
+AT+CPAS:
+  commands:
+    - cmd: AT+CPAS
+      desc: check the status of phone activity
+E:
+  commands:
+    - cmd: E
+      desc: is an Echo command
+ATQ:
+  commands:
+    - cmd: ATQ
+      desc: command results code suppression
+ATX:
+  commands:
+    - cmd: ATX
+      desc: select response rang
+AT+ICF:
+  commands:
+    - cmd: AT+ICF
+      desc: framing the character of DTE-DCE
+AT&Q:
+  commands:
+    - cmd: AT&Q
+      desc: identify an option for communications mode
+AT&C:
+  commands:
+    - cmd: AT&C
+      desc: identify the usage of DCD
+AT&D:
+  commands:
+    - cmd: AT&D
+      desc: identify the usage of DTR
+ATV:
+  commands:
+    - cmd: ATV
+      desc: command is a define response format
+AT+IFC:
+  commands:
+    - cmd: AT+IFC
+      desc: control local flow for DTE-DCE
+AT&K:
+  commands:
+    - cmd: AT&K
+      desc: choose flow control
+AT&S:
+  commands:
+    - cmd: AT&S
+      desc: identify an option for DSR
+AT+IPR:
+  commands:
+    - cmd: AT+IPR
+      desc: set DTE rate
+AT+CLIP:
+  commands:
+    - cmd: AT+CLIP
+      desc: command is used for calling line recognition presentation
+AT+ILRR:
+  commands:
+    - cmd: AT+ILRR
+      desc: command is used for reporting DTE-DCE
+AT+CR:
+  commands:
+    - cmd: AT+CR
+      desc: control service reporting
+AT+DR:
+  commands:
+    - cmd: AT+DR
+      desc: command is used for reporting data compression
+ATB:
+  commands:
+    - cmd: ATB
+      desc: command is an option for a communications standard
+AT+DS:
+  commands:
+    - cmd: AT+DS
+      desc: compress the data
+AT+CEER:
+  commands:
+    - cmd: AT+CEER
+      desc: extend error report
+AT+CBST:
+  commands:
+    - cmd: AT+CBST
+      desc: choose the type of bearer service
+AT+CRLP:
+  commands:
+    - cmd: AT+CRLP
+      desc: command is a radio link
+AT\*C:
+  commands:
+    - cmd: AT\*C
+      desc: start SMS interpreter
+AT?:
+  commands:
+    - cmd: AT?
+      desc: is used to command help
+AT\*V:
+  commands:
+    - cmd: AT\*V
+      desc: activate V.25bis mode
+AT\*T:
+  commands:
+    - cmd: AT\*T
+      desc: enter SMS block mode protocol
+AT+CESP:
+  commands:
+    - cmd: AT+CESP
+      desc: enter SMS block mode protocol
+AT\*NOKIATEST:
+  commands:
+    - cmd: AT\*NOKIATEST
+      desc: test command
+AT+CSMS:
+  commands:
+    - cmd: AT+CSMS
+      desc: select message service
+AT+CSMP:
+  commands:
+    - cmd: AT+CSMP
+      desc: fix text mode parameters
+AT+CMGF:
+  commands:
+    - cmd: AT+CMGF
+      desc: format message
+AT+CPMS:
+  commands:
+    - cmd: AT+CPMS
+      desc: choose message storage
+AT+CRES:
+  commands:
+    - cmd: AT+CRES
+      desc: restore settings
+AT+CNMI:
+  commands:
+    - cmd: AT+CNMI
+      desc: indicate a new message to TE
+AT+CSCA:
+  commands:
+    - cmd: AT+CSCA
+      desc: command is used for service center address
+AT+CSCB:
+  commands:
+    - cmd: AT+CSCB
+      desc: choose types of cell broadcast message
+AT+CMGR:
+  commands:
+    - cmd: AT+CMGR
+      desc: read the message
+AT+CSDH:
+  commands:
+    - cmd: AT+CSDH
+      desc: illustrate text mode parameters
+AT+CSAS:
+  commands:
+    - cmd: AT+CSAS
+      desc: save settings
+AT+CMSS:
+  commands:
+    - cmd: AT+CMSS
+      desc: send a message from storage
+AT+CMGD:
+  commands:
+    - cmd: AT+CMGD
+      desc: delete the message
+AT+CMGL:
+  commands:
+    - cmd: AT+CMGL
+      desc: list messages
+AT+CMGS:
+  commands:
+    - cmd: AT+CMGS
+      desc: send message
+AT+CMGW:
+  commands:
+    - cmd: AT+CMGW
+      desc: write a message to memory
+AT+CMGL:
+  commands:
+    - cmd: AT+CMGL
+      desc: list messages
+AT+CMGW:
+  commands:
+    - cmd: AT+CMGW
+      desc: write a message to memory
+AT+CMGS:
+  commands:
+    - cmd: AT+CMGS
+      desc: send message
+AT+CMGR:
+  commands:
+    - cmd: AT+CMGR
+      desc: read the message
+AT+RST:
+  commands:
+    - cmd: AT+RST
+      desc: ESP8266 restart the module
+AT+CWQAP:
+  commands:
+    - cmd: AT+CWQAP
+      desc: ESP8266 quit the AP
+AT+CIPSTATUS:
+  commands:
+    - cmd: AT+CIPSTATUS
+      desc: ESP8266 obtain the connection status
+AT+CWJAP:
+  commands:
+    - cmd: AT+CWJAP
+      desc: ESP8266 join the AP
+AT+CWMODE:
+  commands:
+    - cmd: AT+CWMODE
+      desc: ESP8266 command is used to
+AT+CWLAP:
+  commands:
+    - cmd: AT+CWLAP
+      desc: ESP8266 list the AP
+AT+CIPSTART:
+  commands:
+    - cmd: AT+CIPSTART
+      desc: ESP8266 set up the connection for TCP
+AT+CIPCLOSE:
+  commands:
+    - cmd: AT+CIPCLOSE
+      desc: ESP8266 close the connection for TCP
+AT+CIPMUX:
+  commands:
+    - cmd: AT+CIPMUX
+      desc: ESP8266 fix multiple connections
+AT+CWSAP:
+  commands:
+    - cmd: AT+CWSAP
+      desc: ESP8266 fix the parameters of AP
+AT+CIPSERVER:
+  commands:
+    - cmd: AT+CIPSERVER
+      desc: ESP8266 set as serve
+AT+CIPSEND:
+  commands:
+    - cmd: AT+CIPSEND
+      desc: ESP8266 send data
+AT+CIFSR:
+  commands:
+    - cmd: AT+CIFSR
+      desc: ESP8266 obtain an IP address
